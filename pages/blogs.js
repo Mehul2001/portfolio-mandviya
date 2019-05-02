@@ -36,7 +36,7 @@ class Blogs extends React.Component {
                 </Link>
                 <p className="post-meta">Posted by
 	          <a href="#"> {blog.author} </a>
-                    {moment(parseInt(blog.createdAt, 10)).format('LL')}</p>
+                    {moment(blog.createdAt).format('LL')}</p>
             </div>
         )
         )
