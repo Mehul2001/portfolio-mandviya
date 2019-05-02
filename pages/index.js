@@ -80,7 +80,7 @@ class Index extends React.Component {
                                     <h1>
                                         {isAuthenticated && <span> <strong>{user.name}</strong> </span>}
                                         Welcome to the portfolio website of Mehul Mandviya.
-                                       Get informed, collaborate and discover projects I was working on through the years!
+                                       I am a full-stack software engineer whose primary tech stack includes JavaScript, Node and React. I'm extremely passionate about building things, producing high-quality,clean , extensible and testable code and solving challenging technical problems.
                   </h1>
                                 </div>
                                 <Typed

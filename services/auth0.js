@@ -3,12 +3,14 @@ import Cookies from 'js-cookie';
 import jwt from 'jsonwebtoken';
 import axios from 'axios';
 
+const CLIENT_ID = process.env.CLIENT_ID;
+
 class Auth0 {
     constructor() {
         this.auth0 = new auth0.WebAuth({
             domain: 'dev-fs9vxe5p.auth0.com',
-            clientID: '01iPOsNpaC5VWeCowQiUW5ifKz6wIBdA',
-            redirectUri: 'http://localhost:3000/callback',
+            clientID: CLIENT_ID,
+            redirectUri: `${process.env.BASE_URL}/callback`,
             responseType: 'token id_token',
             scope: 'openid profile'
         });
@@ -37,18 +39,14 @@ class Auth0 {
         // Set the time that the Access Token will expire at
         const expiresAt = (authResult.expiresIn * 1000) + new Date().getTime();
         //this.accessToken = authResult.accessToken;
-        Cookies.set('user', authResult.idTokenPayload)
         Cookies.set('jwt', authResult.idToken)
-        Cookies.set('expiresAt', expiresAt)
     }
     logout() {
-        Cookies.remove('user')
         Cookies.remove('jwt')
-        Cookies.remove('expiresAt')
 
         this.auth0.logout({
             returnTo: '',
-            clientID: '01iPOsNpaC5VWeCowQiUW5ifKz6wIBdA'
+            clientID: CLIENT_ID
         })
     }
     login() {
