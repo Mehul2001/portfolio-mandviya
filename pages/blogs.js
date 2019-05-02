@@ -56,7 +56,7 @@ class Blogs extends React.Component {
                             <div className="col-lg-8 col-md-10 mx-auto">
                                 <div className="site-heading">
                                     <h1>Fresh Blogs</h1>
-                                    <span className="subheading">Programming, travelling...</span>
+                                    <span className="subheading">Programming, travelling, Networking...</span>
                                 </div>
                             </div>
                         </div>

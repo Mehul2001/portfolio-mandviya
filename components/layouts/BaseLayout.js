@@ -10,10 +10,10 @@ const BaseLayout = (props) => {
         <React.Fragment>
             <Head>
                 <title>{title}</title>
-                <meta name="description" content="My name is Mehul Mandviya and I am a Software Developer. I have a Master's degree in Artificial Intelligence and several years of experience working on a wide range of technologies and projects from C++ development for ultrasound devices to modern mobile and web applications in React and Angular. Throughout my career, I have acquired advanced technical knowledge and the ability to explain programming topics clearly and in detail to a broad audience. I invite you to take my course, where I have put a lot of effort to explain web and software engineering concepts in a detailed, hands-on and understandable way." />
-                <meta name="keywords" content="mehul portfolio" />
-                <meta property="og:title" content="Mehul Mandviya - programmer, developer" />
-                <meta property="og:locale" content="en_EU" />
+                <meta name="description" content="My name is Mehul Mandviya and I am a Software Developer. I have a Master's degree in Computer Engineering from California State University,Chico." />
+                <meta name="keywords" content="Mehul Portfolio, mehul developer, mehul front end developer, mehul full stack developer, mehul programmer" />
+                <meta property="og:title" content="Mehul Mandviya - Programmer, Software Developer,Front-End Developer, Full-Stack Developer" />
+                <meta property="og:locale" content="en_US" />
                 <meta property="og:url" content="http://localhost:3000" />
                 <meta property="og:type" content="website" />
                 <meta property="og:description" content="My name is Mehul Mandviya and I am Software Developer." />
