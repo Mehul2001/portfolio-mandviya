@@ -6,7 +6,7 @@ import { Row, Col } from 'reactstrap';
 class About extends React.Component {
     render() {
         return (
-            <BaseLayout title="Filip Jerga - Learn More About Me" {...this.props.auth}>
+            <BaseLayout title="Mehul Mandviya - Learn More About Me" {...this.props.auth}>
                 <BasePage className="about-page">
                     <Row className="mt-5">
                         <Col md="6">
@@ -18,25 +18,20 @@ class About extends React.Component {
                         </Col>
                         <Col md="6">
                             <div className="fadein">
-                                <p>My name is Mehul Mandviya and I am a Software Developer. </p>
+                                <p>My name is Mehul Mandviya and I am a Software Developer, currently living in San Francisco. </p>
                                 <p>
                                     I have a Master's degree in Computer Engineering from California State University, Chico.
+                                    Full Stack Developer/Engineer with a background in Elecronics. I bring a unique perspective to engineering, as I am constantly thinking about fiscal impact of every line of code I write!
                                     I am passionate about building excellent software that improves the lives of those around me.
-                                    I am currently located in San Francisco, CA.
-                                    on a wide range of technologies and projects from C++ development for ultrasound devices to
-                                     modern mobile and web applications in React and Angular.
-	                </p>
+                                    I approach coding in the same way I approach training--with efficiency, effectiveness and purpose.
+	                            </p>
                                 <p>
-                                    Throughout my career, I have acquired advanced technical knowledge and the ability to explain
-                                    programming topics clearly and in detail to a broad audience. I invite you to take my course,
-                                    where I have put a lot of effort to explain web and software engineering concepts in a detailed,
-                                    hands-on and understandable way.
-	                </p>
+                                    I specialize in building applications using Javascript, React,Redux, Node.js/Express, MongoDB, Heroku and AWS.I'm looking to join a close team that embodies the startup hustle and is all about creating a positive impact through innovative products.
+                                </p>
                                 <p>
-                                    I am passionate about building excellent software that improves the lives of those around me.
-                                    I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations.
-                                     All of my work is produced locally from Moscow, Idaho. What would you do if you had a software expert available at your fingertips?
-                    </p>
+                                    When I'm not coding you can find me playing ping pong or listening to music.Check out some of my recent projects @
+                                    https://github.com/Mehul2001
+                                </p>
                             </div>
                         </Col>
                     </Row>

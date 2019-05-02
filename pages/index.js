@@ -13,7 +13,7 @@ class Index extends React.Component {
             isFlipping: false
         }
 
-        this.roles = ['Developer', 'Tech Lover', 'Team Player', 'React.js', 'Vue.js', 'Node.js'];
+        this.roles = ['Developer', 'Tech Lover', 'Team Player', 'Ambitious', 'Imaginative', 'React.js', 'Vue.js', 'Node.js'];
     }
     componentDidMount() {
         this.animateCard();
@@ -41,7 +41,7 @@ class Index extends React.Component {
                 title="Mehul Mandviya - Portfolio">
                 <div className="main-section">
                     <div className="background-image">
-                        <img src="/static/images/background-index.png" />
+                        <img alt="Guy programming welcome picture" src="/static/images/background-index.png" />
                     </div>
                     <Container>
                         <Row>
@@ -55,7 +55,7 @@ class Index extends React.Component {
                                                     Have a look at my portfolio and job history.
                         </div>
                                             </div>
-                                            <img alt="Guy programming welcome picture" className="image" src="/static/images/section-1.png" />
+                                            <img className="image" src="/static/images/section-1.png" />
                                             <div className="shadow-custom">
                                                 <div className="shadow-inner"> </div>
                                             </div>
@@ -67,7 +67,7 @@ class Index extends React.Component {
                                                     I Love Debbuging.
 	                        </div>
                                             </div>
-                                            <img alt="Guy programming welcome picture" className="image" src="/static/images/section-2.png" />
+                                            <img alt="Guy programming welcome picture" className="image" alt="Guy programming welcome picture" src="/static/images/section-2.png" />
                                             <div className="shadow-custom shadow-custom-2">
                                                 <div className="shadow-inner"> </div>
                                             </div>
@@ -99,7 +99,7 @@ class Index extends React.Component {
                                 <div className="hero-welcome-bio">
                                     <h2>
                                         Let's take a look on my work.
-                  </h2>
+                                    </h2>
                                 </div>
                             </Col>
                         </Row>
