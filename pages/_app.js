@@ -21,7 +21,7 @@ class MyApp extends App {
         return { pageProps, auth }
     }
     componentDidMount() {
-        Fonts();
+        //Fonts();
     }
 
     render() {
