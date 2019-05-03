@@ -11,11 +11,17 @@
   //Components
   @import './header';
   @import './slate-editor';
+
+  .montserrat-loaded {
+	  html, body {
+	    font-family: 'Montserrat', 'Helvetica';
+	  }
+	}
 	
 	html, body {
-	  height:100%;
-	  width:100%;
-	  font-family: 'Montserrat', 'Helvetica';
+	  height: 100%;
+	  width: 100%;
+	  font-family: 'Helvetica';
     }
     .clickable {
       cursor: pointer;
